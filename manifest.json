@@ -1,7 +1,7 @@
 {
     "name": "Pilfer",
     "description": "One-click saving and sync photos across all devices",
-    "version": "0.9.2",
+    "version": "0.9.2.2",
     "manifest_version": 2,
     "permissions": [
         "https://*/",
