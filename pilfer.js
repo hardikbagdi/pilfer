@@ -20,7 +20,7 @@ chrome.notifications.onButtonClicked.addListener(function(notificationId, button
 chrome.contextMenus.onClicked.addListener(onClickHandler);
 chrome.runtime.onInstalled.addListener(function() {
     chrome.tabs.create({
-        url: "http://getPilfer.com"
+        url: "http://getPilfer.com/thankyou.html"
     });
     var title = "Pilfer it";
     var id = chrome.contextMenus.create({
@@ -203,8 +203,6 @@ console.log("getToken starts")
                                     }],
 
                                 }
-
-                                
                                 chrome.notifications.create(opt, function(nId) {
                                     setTimeout(function() {
                                         chrome.notifications.clear(nId);
